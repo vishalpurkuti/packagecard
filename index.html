@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .vsproduct-wrap {
+            width: 100%;
+            margin: 0 auto;
+            font-family: sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        .vs-product {
+            max-width: 300px;
+            flex: 1 1 300px;
+            min-height: 595px;
+            margin: 15px;
+            background: #f2f2f2;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            position: relative;
+            -webkit-box-shadow: 0px 4px 9px -1px rgba(38, 38, 38, 0.6);
+            -moz-box-shadow: 0px 4px 9px -1px rgba(38, 38, 38, 0.6);
+            box-shadow: 0px 4px 9px -1px rgba(38, 38, 38, 0.6);
+        }
+
+        .vs-product-head {
+            height: 40px;
+            background: #f53b57;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .vs-product-title h3 {
+            text-align: center;
+            padding: 15px 0;
+            color: #1e272e;
+            letter-spacing: 1px;
+        }
+
+        .vs-product-price {
+            text-align: center;
+            color: #1e272e;
+            position: relative;
+        }
+
+        .price {
+            font-size: 60px;
+            font-weight: bold;
+            color: #f53b57;
+        }
+
+        .rupees {
+            position: absolute;
+            top: 5px;
+            left: 30px;
+            font-weight: 500;
+            font-size: 20px;
+
+
+        }
+
+        .year {
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            font-weight: 500;
+            font-size: 20px;
+
+        }
+
+        .vs-product-slogan {
+            text-align: center;
+            padding: 20px 0 0 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: #1e272e;
+        }
+
+        .vs-product-detail {
+            padding: 20px;
+        }
+
+        .vs-product-detail ul li {
+            list-style: none;
+            padding: 3px 0;
+            font-weight: 500;
+            color: #262626;
+            font-size: 1rem;
+        }
+
+        .green {
+            color: green;
+            font-weight: bold;
+            padding-right: 5px;
+        }
+
+        .vs-button {
+            width: 80%;
+            display: block;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            border-radius: 8px;
+            background: #f53b57;
+            outline: none;
+            border: 2px solid transparent;
+
+        }
+
+        .vs-button:hover {
+            border: 2px solid #f53b57;
+            color: #f53b57;
+            background: transparent;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="vsproduct-wrap">
+        <div class="vs-product">
+            <div class="vs-product-head"></div>
+            <div class="vs-product-title">
+                <h3>Starter</h3>
+            </div>
+            <div class="vs-product-price">
+                <span class="rupees">Rs.</span>
+                <h3 class="price">15000</h3>
+                <span class="year">/year</span>
+            </div>
+            <div class="vs-product-slogan">
+                <p>Perfect For Startup</p>
+            </div>
+            <div class="vs-product-detail">
+                <ul>
+                    <li> <span class="green">&#x2713;</span>Installed Theme</li>
+                    <li><span class="green">&#x2713;</span>Installed CMS </li>
+                    <li><span class="green">&#x2713;</span>Demo Setup</li>
+                    <li><span class="green">&#x2713;</span>WordPress Site Backup</li>
+                    <li><span class="green">&#x2713;</span>WordPress SEO / SEO Sitemap</li>
+                    <li><span class="green">&#x2713;</span>WordPress Site Security</li>
+                </ul>
+            </div>
+            <button class="vs-button">Buy Now</button>
+        </div>
+
+
+        <div class="vs-product">
+            <div class="vs-product-head"></div>
+            <div class="vs-product-title">
+                <h3>Intermediate</h3>
+            </div>
+            <div class="vs-product-price">
+                <span class="rupees">Rs.</span>
+                <h3 class="price">30000</h3>
+                <span class="year">/year</span>
+            </div>
+            <div class="vs-product-slogan">
+                <p>Grow Your Business</p>
+            </div>
+            <div class="vs-product-detail">
+                <ul>
+                    <li> <span class="green">&#x2713;</span>Your choice of platform:Magento, &nbspWordpress, Joomla</li>
+                    <li> <span class="green">&#x2713;</span>Installed Theme</li>
+                    <li><span class="green">&#x2713;</span>Demo Setup </li>
+                    <li><span class="green">&#x2713;</span>Wordpress Site Backup</li>
+                    <li><span class="green">&#x2713;</span>WordPress Site Backup</li>
+                    <li><span class="green">&#x2713;</span>3 Social Media Promotional Ads Design</li>
+                    <li><span class="green">&#x2713;</span>Functionality like Forms, Interactive Buttons, Subscribe,
+                        Social Media Link</li>
+                </ul>
+            </div>
+            <button class="vs-button">Buy Now</button>
+        </div>
+
+
+        <div class="vs-product">
+            <div class="vs-product-head"></div>
+            <div class="vs-product-title">
+                <h3>Advance</h3>
+            </div>
+            <div class="vs-product-price">
+                <span class="rupees">Rs.</span>
+                <h3 class="price">50000</h3>
+                <span class="year">/year</span>
+            </div>
+            <div class="vs-product-slogan">
+                <p>Expand Your Business</p>
+            </div>
+            <div class="vs-product-detail">
+                <ul>
+                    <li> <span class="green">&#x2713;</span>Custom Theme</li>
+                    <li> <span class="green">&#x2713;</span>We Install Your Theme</li>
+                    <li><span class="green">&#x2713;</span>We Manage your Content </li>
+                    <li><span class="green">&#x2713;</span>We Provide SSL</li>
+                    <li><span class="green">&#x2713;</span>SEO Friendly Website</li>
+                    <li><span class="green">&#x2713;</span>3 Social Media Promotional Ads Design</li>
+                    <li><span class="green">&#x2713;</span>Extraa Functionalities like cart, login, membership, payment
+                        integration and more.</li>
+                </ul>
+            </div>
+            <button class="vs-button">Buy Now</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
